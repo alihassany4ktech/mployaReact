@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import { NavLink } from "react-router-dom";
 const Footer = () => {
 
       return (
@@ -18,9 +17,9 @@ const Footer = () => {
                                           <div className="col-lg-2 col-md-6 mt-3 col-sm-6 col-xs-6" >
                                   <h5> Links</h5>
                                    <ul className="no-bullets">
-                                         <li>Home</li>
+                                         <li><NavLink exact to="/" style={{color:'black',textDecoration:'none'}}>Home</NavLink> </li>
                                          <li>Shop</li>
-                                         <li>About</li>
+                                                      <li><NavLink exact to="/about" style={{color:'black',textDecoration:'none'}}>About</NavLink> </li>
                                           <li>Location</li>
                                           <li>Contact</li>
                                          

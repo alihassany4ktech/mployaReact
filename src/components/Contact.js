@@ -6,7 +6,7 @@ const Contact = () => {
       return (
             <>
                   <div className="container">
-                        <div className='row mb-5 justify-content-center'>
+                        <div className='row mb-5 justify-content-center' style={{marginTop:'150px'}}>
                               <div className="col-sm-8">
                                     <div className="row">
                                            <div className="col-sm-8">

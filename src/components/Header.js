@@ -4,6 +4,7 @@ import React from 'react';
 const Header = () => {
       return (
             <>
+                  <div className='row rowbg'>
                   <h1 className="text-center mainh">A Job That Matches With Your Passion</h1>
                   <p className='text-center'>We'll hepl you with the tools we've created to find the jobs you've been looking for</p>
                   <div className='row'>
@@ -30,7 +31,8 @@ const Header = () => {
                         </form>
                         </div>
                        
-                  </div>
+                        </div>
+                        </div>
                  
             </>
       );

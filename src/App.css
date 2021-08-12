@@ -22,11 +22,18 @@ ul.no-bullets {
   }
 }
 
-
 .rowbg{
   background-image: url("./bgpic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.maprow{
+    background-image: url("./map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
 }
 
 .mainh{
@@ -61,6 +68,11 @@ ul.no-bullets {
   margin-left: 100px;
   margin-top: 60px;
   float: right;
+}
+.applybtn {
+  margin-top: 0px;
+  float: right;
+ width: 100px;
 }
 
 
