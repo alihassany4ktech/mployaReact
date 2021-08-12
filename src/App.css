@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+ul.no-bullets {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +20,17 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+.rowbg{
+  background-image: url("./bgpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainh{
+  margin-top:150px;
 }
 
 .App-header {
@@ -34,5 +54,68 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.contactbtn{
+  margin-left: 100px;
+  margin-top: 60px;
+  float: right;
+}
+
+
+@media screen and (max-width:500px)
+{
+  .jobtitle{
+    margin-left: 11px;
+    margin-top:10px;
+  }
+  .location  {
+    margin-left: 15px;
+    margin-top:10px;
+  }
+
+  .searchbtn{
+    margin-left: 15px;
+    margin-top:20px;
+  }
+
+  .jobt {
+
+    margin-left: 12px !important;
+  }
+  .lo {
+
+    margin-left: 12px !important;
+  }
+
+  .subscribebtn {
+      margin-bottom: 10px;
+  
+  }
+
+  .srow{
+   width:90%;
+    margin-left: 14px !important;
+  }
+
+  .contactbtn {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    float: left;
+
+  }
+
+
+
+  .rowbg {
+    background-image: url("./bgpic.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover!important;
+  }
+
+  .input-group-text {
+ 
+    margin-top: 10px !important;
   }
 }
